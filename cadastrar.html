@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Cadastrar</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.0.2/css/bootstrap.min.css">
+</head>
+<body>
+    <h1 class="text-center mt-4">Cadastro</h1>
+    <div class="container mt-4">
+        <form action="/cadastrar" method="POST">
+            <div class="mb-3">
+                <label for="nome_pet" class="form-label">Nome:</label>
+                <input type="text" class="form-control" id="nome_pet" name="nome_pet">
+            </div>
+            <div class="mb-3">
+                <label for="sexo_pet" class="form-label">Sexo:</label>
+                <input type="text" class="form-control" id="sexo_pet" name="sexo_pet">
+            </div>
+            <div class="mb-3">
+                <label for="especie_pet" class="form-label">Espécie:</label>
+                <input type="text" class="form-control" id="especie_pet" name="especie_pet">
+            </div>
+            <div class="mb-3">
+                <label for="raca_pet" class="form-label">Raça:</label>
+                <input type="text" class="form-control" id="raca_pet" name="raca_pet">
+            </div>
+            <div class="mb-3">
+                <label for="peso_pet" class="form-label">Peso:</label>
+                <input type="number" class="form-control" id="peso_pet" name="peso_pet">
+            </div>
+            <div class="mb-3">
+                <label for="tamanho_pet" class="form-label">Tamanho:</label>
+                <input type="number" class="form-control" id="tamanho_pet" name="tamanho_pet">
+            </div>
+            <div class="mb-3">
+                <label for="idade_pet" class="form-label">Idade:</label>
+                <input type="number" class="form-control" id="idade_pet" name="idade_pet">
+            </div>
+            <div class="mb-3">
+                <label for="doenca_pet" class="form-label">Doença:</label>
+                <input type="text" class="form-control" id="doenca_pet" name="doenca_pet">
+            </div>
+            <div class="mb-3">
+                <label for="obs_pet" class="form-label">Obs:</label>
+                <input type="text" class="form-control" id="obs_pet" name="obs_pet">
+            </div>
+            <button type="submit" class="btn btn-primary">Cadastrar</button>
+        </form>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.0.2/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
